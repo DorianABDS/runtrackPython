@@ -1,10 +1,6 @@
-def main():
-    # wallet = 75
-    # produit = 50
-    # reste = wallet - produit
-    # print("Il vous reste " reste] "euros")
-    print(1+1)
+print("hello word")
 
+x = 2
+y = 3
 
-if __name__ == "__main__":
-    main()
+print("x + y")

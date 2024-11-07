@@ -12,6 +12,7 @@ random_index = random.choice(liste)
 
 number = random.randint(1,6)
 lop = {0}
+
 guess = ""
 
 

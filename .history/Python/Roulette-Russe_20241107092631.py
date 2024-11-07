@@ -8,20 +8,17 @@ print("Bienvenue dans la roulette russe !")
 print("Ton but est de survivre à travers un chargeur de 1911.. bonne chance !")
 
 liste = ["C'était Pas loin !", "Arg.. presque", "Ouf moins une !", "Haha la prochaine est pour toi", "essaie encore ?", "Ça sent le plomb .."]
-random_index = random.choice(liste)
-
+random_index = random.randint(0,len(liste)-1)
 number = random.randint(1,6)
-lop = {0}
-guess = ""
-
+guess = str("guess")
 
 while guess != number:
-    guess = int(input("Tire une balle : "))
-    lop.add(guess)
+    guess = input("Tire une balle : ")
+
     if number << guess:
-        print("Cow-boy : ",random_index)
+        print("reaction"[random_index])
     elif number > guess:
-        print("Cow-boy : ",random_index)
+        print("reaction"[random_index])
     else:
         guess != number
         print("WASTED...")

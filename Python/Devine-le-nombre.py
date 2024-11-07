@@ -5,10 +5,9 @@ nombre_secret = random.randint(1, 100)
 nbr_essaie_max = 10
 
 
-
 reponse = 0
 while reponse != nombre_secret:
-    reponse = int(input("Choisi un nombre : "))
+    reponse = int(input("Choisi un nombre : " + "boop"))
 
     if reponse < nombre_secret:
         print("Plus haut")

@@ -9,15 +9,15 @@ print("Ton but est de survivre à travers un chargeur de 1911.. bonne chance !")
 
 liste = ["C'était Pas loin !", "Arg.. presque", "Ouf moins une !", "Haha la prochaine est pour toi", "essaie encore ?", "Ça sent le plomb .."]
 random_index = random.choice(liste)
-
 number = random.randint(1,6)
-lop = {0}
 guess = ""
+# nbr_essaies = 5
+# nbr_essaies_max
 
 
 while guess != number:
     guess = int(input("Tire une balle : "))
-    lop.add(guess)
+    # if nbr_essaies += 
     if number << guess:
         print("Cow-boy : ",random_index)
     elif number > guess:

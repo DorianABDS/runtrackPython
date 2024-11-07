@@ -1,7 +1,7 @@
 import random
 
 name = input("Entrer le nom de joueur : ")
-print("salut " + name, ", es-tu prêt à risquer t'a vie pour un simple pari ?")
+print("salut" + name, ", es-tu prêt à risquer t'a vie pour un simple pari ?")
 print("\n")
 print("---------------------------------------------------------------------")
 print("Bienvenue dans la roulette russe !")
