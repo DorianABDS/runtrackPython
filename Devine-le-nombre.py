@@ -21,4 +21,4 @@ while reponse != nombre_secret and nbr_essaies <= nbr_essaies_max:
 
 if nbr_essaies > nbr_essaies_max and reponse != nombre_secret:
     print("Tu as utilisé tes", nbr_essaies_max, "vies.. réessaie !")
-    print("Le nombre secret était", nombre_secret,".")
+    print("Le nombre secret était", nombre_secret,".") 
