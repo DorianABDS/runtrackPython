@@ -1,5 +1,14 @@
-# Indiquer un nombre en console, en fonction du nombre à trouver (entre 1 et 100), afficher en console "plus grand" ou "plus petit".
+# Devine le nombre ---
 
-# Il faut:
-# faire une boucle qui se fini une fois le "j'ai gagné"
-# faire une condition qui compare le nombre choisi par le nombre à trouver
+Indiquer un nombre en console, en fonction du nombre à trouver (entre 1 et 100), afficher en console "plus grand" ou "plus petit".
+Il faut:
+- faire une boucle qui se fini une fois le "j'ai gagné"
+- faire une condition qui compare le nombre choisi par le nombre à trouver
+
+
+# Bataille-navale ---
+
+Il faut:
+- import de la lib random
+- boucle sur les coordonées x et y (choix de la ligne, puis de l'emplacement)
+- "O" est un tire loopé, "X" est un tire coulé
