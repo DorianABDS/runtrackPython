@@ -1,13 +1,13 @@
 import random
 
-name = input("Entrer le nom de joueur : ")
-print("salut " + name, ", es-tu prêt à risquer t'a vie pour un simple pari ?")
-print("\n")
+# name = input("Entrer le nom de joueur : ")
+# print("salut " + name, ", es-tu prêt à risquer t'a vie pour un simple pari ?")
+# print("\n")
 print("---------------------------------------------------------------------")
 print("Bienvenue dans la roulette russe !")
-print("Ton but est de survivre à 6 balles de révolver bonne chance !")
+print("Ton but est de survivre à 6 balles de révolver bonne chance !") 
 
-liste = ["C'était Pas loin !", "Arg.. presque", "Ouf moins une !", "Haha la prochaine est pour toi", "essaie encore ?", "Ça sent le plomb .."]
+liste = ["BAAAM ! le revolver a rugi .."]
 random_index = random.choice(liste)
 
 number = random.randint(1,6)
@@ -25,4 +25,4 @@ while guess != number:
         print("Cow-boy : ",random_index)
     else:
         guess != number
-        print("WASTED...")
+        print("WASTED...") 

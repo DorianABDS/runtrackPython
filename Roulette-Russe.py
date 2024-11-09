@@ -25,4 +25,4 @@ while guess != number:
         print("Cow-boy : ",random_index)
     else:
         guess != number
-        print("WASTED...")
+        print("WASTED...") 
