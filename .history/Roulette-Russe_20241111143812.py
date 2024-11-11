@@ -7,6 +7,9 @@ print("---------------------------------------------------------------------")
 print("Bienvenue dans la roulette russe !")
 print("Ton but est de survivre à 6 balles de révolver bonne chance !") 
 
+liste = ["BAAAM ! le revolver a rugi .."]
+random_index = random.choice(liste)
+
 number = random.randint(1,6)
 lop = {0}
 guess = ""
@@ -14,18 +17,14 @@ guess = ""
 
 while guess != number:
     guess = int(input("Tire une balle : "))
-    lop.add(guess)
-    print(lop)
-    if 0 < guess > 6:
-        print("Appui sur la détente non ?")
-        continue
-    if guess == 0:
-        print("Appui sur la détente non ?")
-        continue
+    # lop.add(guess)
+    # print(lop)
+    if guess < 0 and number > 6:
+        print("c'est pas bon")
     if number < guess:
-        print("BAAAM ! le revolver a rugi ..")
+        print("Cow-boy : ",random_index)
     elif number > guess:
-        print("BAAAM ! le revolver a rugi ..")
+        print("Cow-boy : ",random_index)
     else:
         guess != number
-        print("WASTED...")
+        print("WASTED...") 

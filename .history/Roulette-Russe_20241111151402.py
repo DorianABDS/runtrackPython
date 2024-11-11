@@ -17,11 +17,11 @@ while guess != number:
     lop.add(guess)
     print(lop)
     if 0 < guess > 6:
-        print("Appui sur la détente non ?")
-        continue
+        print("c'est pas bon")
+        break
     if guess == 0:
-        print("Appui sur la détente non ?")
-        continue
+        print("c'est pas bon")
+        break
     if number < guess:
         print("BAAAM ! le revolver a rugi ..")
     elif number > guess:

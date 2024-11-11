@@ -16,12 +16,9 @@ while guess != number:
     guess = int(input("Tire une balle : "))
     lop.add(guess)
     print(lop)
-    if 0 < guess > 6:
-        print("Appui sur la détente non ?")
-        continue
-    if guess == 0:
-        print("Appui sur la détente non ?")
-        continue
+    if 0 <= guess > 6:
+        print("c'est pas bon")
+        break
     if number < guess:
         print("BAAAM ! le revolver a rugi ..")
     elif number > guess:
