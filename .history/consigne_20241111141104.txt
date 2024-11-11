@@ -1,9 +1,9 @@
 # Bataille-navale ---
 
 Il faut:
-- import de la lib random
-- boucle sur les coordonnées x et y (choix de la ligne, puis de l'emplacement)
-- "O" est un tire loupé, "X" est un tire coulée
+❌ import de la lib random
+❌ boucle sur les coordonnées x et y (choix de la ligne, puis de l'emplacement)
+❌ "O" est un tire loupé, "X" est un tire coulée
 
 
 # Devine le nombre ---
