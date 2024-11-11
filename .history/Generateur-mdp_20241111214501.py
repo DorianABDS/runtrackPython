@@ -19,8 +19,8 @@ window = Tk()
 
 # personnaliser la fenêtre
 window.title("Générateur de mot de passe")
-window.geometry("800x500")
-window.minsize(780, 480)
+window.geometry("720x480")
+window.minsize(720, 480)
 window.iconbitmap("img/icon-password.ico")
 window.config(background='#2D2D2D')
 
@@ -51,7 +51,7 @@ password_entry.pack(fill=X)
 
 # ajouter un premier boutton
 generate_password_button = Button(right_frame, text="Générer un mot de passe", font=("Montserrat, 15"), bg='white', fg="#2D2D2D", command=generate_password)
-generate_password_button.pack(pady=10, fill=X)
+generate_password_button.pack(pady=25, fill=X)
 
 # on place la sous boite à droite de la frame principale
 right_frame.grid(row=0, column=1, sticky=W)

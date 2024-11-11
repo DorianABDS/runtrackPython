@@ -7,7 +7,7 @@ def generate_password():
     # Mot de passe généré automatiquement entre 8 et 12 caractères
     password_length = random.randint(8,12)
     # Ensemble de tous les caractères pouvant se trouver dans le mot de passe
-    password_chars = string.ascii_letters + string.punctuation + string.digits
+    password_chars = string.ascii_letters + string.digits
     # Le mot de passe est généré aléatoirement
     password = "".join(random.choices(password_chars, k=password_length))
     password_entry.delete(0, END)
@@ -19,8 +19,8 @@ window = Tk()
 
 # personnaliser la fenêtre
 window.title("Générateur de mot de passe")
-window.geometry("800x500")
-window.minsize(780, 480)
+window.geometry("720x480")
+window.minsize(300, 300)
 window.iconbitmap("img/icon-password.ico")
 window.config(background='#2D2D2D')
 
@@ -42,8 +42,8 @@ canvas.grid(row=0, column=0, sticky=W)
 right_frame = Frame(frame, bg='#2D2D2D')
 
 # ajouter un premier texte
-label_title = Label (right_frame, text="Génère un mot de passe de 8 à 12 caractères", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
-label_title.pack(pady=10)
+label_title = Label (right_frame, text="Bienvenue sur l'application", font=("Montserrat, 20"), bg='#2D2D2D', fg="white")
+label_title.pack()
 
 # # ajouter un input
 password_entry = Entry(right_frame, font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
@@ -51,7 +51,7 @@ password_entry.pack(fill=X)
 
 # ajouter un premier boutton
 generate_password_button = Button(right_frame, text="Générer un mot de passe", font=("Montserrat, 15"), bg='white', fg="#2D2D2D", command=generate_password)
-generate_password_button.pack(pady=10, fill=X)
+generate_password_button.pack(pady=25, fill=X)
 
 # on place la sous boite à droite de la frame principale
 right_frame.grid(row=0, column=1, sticky=W)

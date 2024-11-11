@@ -42,7 +42,7 @@ canvas.grid(row=0, column=0, sticky=W)
 right_frame = Frame(frame, bg='#2D2D2D')
 
 # ajouter un premier texte
-label_title = Label (right_frame, text="Génère un mot de passe de 8 à 12 caractères", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
+label_title = Label (right_frame, text="Génère un mot de passe de 8 à 12 caractères", font=("Montserrat, 15") fontweight=(700), bg='#2D2D2D', fg="white")
 label_title.pack(pady=10)
 
 # # ajouter un input

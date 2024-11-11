@@ -19,8 +19,8 @@ window = Tk()
 
 # personnaliser la fenêtre
 window.title("Générateur de mot de passe")
-window.geometry("800x500")
-window.minsize(780, 480)
+window.geometry("720x480")
+window.minsize(720, 480)
 window.iconbitmap("img/icon-password.ico")
 window.config(background='#2D2D2D')
 

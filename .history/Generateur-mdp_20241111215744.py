@@ -43,7 +43,8 @@ right_frame = Frame(frame, bg='#2D2D2D')
 
 # ajouter un premier texte
 label_title = Label (right_frame, text="Génère un mot de passe de 8 à 12 caractères", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
-label_title.pack(pady=10)
+label_title.config(font='Bold')
+label_title.pack()
 
 # # ajouter un input
 password_entry = Entry(right_frame, font=("Montserrat, 15"), bg='#2D2D2D', fg="white")

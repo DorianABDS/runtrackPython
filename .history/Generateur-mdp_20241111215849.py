@@ -28,7 +28,7 @@ window.config(background='#2D2D2D')
 frame = Frame(window, bg='#2D2D2D')
 
 #ajouter la frame
-frame.pack(expand=YES)
+frame.pack(pady=20, expand=YES)
 
 # creation d'image
 width = 300
