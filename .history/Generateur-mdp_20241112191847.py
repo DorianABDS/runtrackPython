@@ -61,15 +61,17 @@ passgen_button = Button(right_frame, text="Générer un mot de passe", font=("Mo
 passgen_button.pack(pady=10, fill=X)
 password = str(callback)
 
-# Input du mot de passe
-lsum = Entry(right_frame, text="", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
-lsum.pack(fill=X)
+lsum = Label(right_frame, text="", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
+lsum.pack()
 
-# suggestion de modification du mot de passe
 min_maj = string.ascii_uppercase + string.ascii_lowercase
 chiffre = string.ascii_uppercase + string.ascii_lowercase + string.digits
 symbol = string.punctuation
 Spéciaux = min_maj + chiffre + symbol
+
+# # # ajouter un input
+# password_entry = Entry(right_frame, font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
+# password_entry.pack(fill=X)
 
 def passgen():
     if choice.get() == 1:

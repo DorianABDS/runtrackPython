@@ -29,6 +29,8 @@ canvas.grid(row=0, column=0, sticky=W)
 # creer une sous frame
 right_frame = Frame(frame, bg='#2D2D2D')
 
+diff = selection 
+
 def selection():
     selection = choice.get()
 

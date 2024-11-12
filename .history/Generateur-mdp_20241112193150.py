@@ -30,7 +30,7 @@ canvas.grid(row=0, column=0, sticky=W)
 right_frame = Frame(frame, bg='#2D2D2D')
 
 def selection():
-    selection = choice.get()
+    if selection == choice.get()
 
 # créer des checkbox
 choice = IntVar()
