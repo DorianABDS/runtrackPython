@@ -30,7 +30,9 @@ canvas.grid(row=0, column=0, sticky=W)
 right_frame = Frame(frame, bg='#2D2D2D')
 
 # titre
-title = Label(right_frame, text="Configurer votre mot de passe avant de le générer", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
+title = StringVar()
+title.set("Configurer votre mot de passe avant de la générer")
+title = Label(right_frame, textvariable=title)
 title.pack()
 
 def selection():
@@ -38,17 +40,19 @@ def selection():
 
 # créer des checkbox
 choice = IntVar()
-c1 = Radiobutton(right_frame, text="Minuscule et Majuscule", variable=choice, value=1, command=selection, font=("Montserrat, 15"), bg='#2D2D2D', fg="green")
+c1 = Radiobutton(right_frame, text="Chiffre", variable=choice, value=1, command=selection, font=("Montserrat, 15"), bg='#2D2D2D', fg="green")
 c1.pack()
-c2 = Radiobutton(right_frame, text="Chiffre", variable=choice, value=2, command=selection, font=("Montserrat, 15"), bg='#2D2D2D', fg="green")
+c2 = Radiobutton(right_frame, text="Spéciaux", variable=choice, value=2, command=selection, font=("Montserrat, 15"), bg='#2D2D2D', fg="green")
 c2.pack()
-c3 = Radiobutton(right_frame, text="Spéciaux", variable=choice, value=3, command=selection, font=("Montserrat, 15"), bg='#2D2D2D', fg="green")
+c3 = Radiobutton(right_frame, text="Hard", variable=choice, value=3, command=selection, font=("Montserrat, 15"), bg='#2D2D2D', fg="green")
 c3.pack()
-labelchoice = Label(right_frame, bg='#2D2D2D')
+labelchoice = Label(right_frame)
 labelchoice.pack()
 
 # ajout d'un input variable
-lentitle = Label(right_frame, text="Longueur du mot de passe", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
+lenlabel = StringVar()
+lenlabel.set("Longueur du mot de passe")
+lentitle = Label(right_frame, textvariable=lenlabel)
 lentitle.pack()
 
 val = IntVar()

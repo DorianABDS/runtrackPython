@@ -38,17 +38,17 @@ def selection():
 
 # créer des checkbox
 choice = IntVar()
-c1 = Radiobutton(right_frame, text="Minuscule et Majuscule", variable=choice, value=1, command=selection, font=("Montserrat, 15"), bg='#2D2D2D', fg="green")
+c1 = Radiobutton(right_frame, text="Chiffre", variable=choice, value=1, command=selection, font=("Montserrat, 15"), bg='#2D2D2D', fg="green")
 c1.pack()
-c2 = Radiobutton(right_frame, text="Chiffre", variable=choice, value=2, command=selection, font=("Montserrat, 15"), bg='#2D2D2D', fg="green")
+c2 = Radiobutton(right_frame, text="Spéciaux", variable=choice, value=2, command=selection, font=("Montserrat, 15"), bg='#2D2D2D', fg="green")
 c2.pack()
-c3 = Radiobutton(right_frame, text="Spéciaux", variable=choice, value=3, command=selection, font=("Montserrat, 15"), bg='#2D2D2D', fg="green")
+c3 = Radiobutton(right_frame, text="Hard", variable=choice, value=3, command=selection, font=("Montserrat, 15"), bg='#2D2D2D', fg="green")
 c3.pack()
-labelchoice = Label(right_frame, bg='#2D2D2D')
+labelchoice = Label(right_frame)
 labelchoice.pack()
 
 # ajout d'un input variable
-lentitle = Label(right_frame, text="Longueur du mot de passe", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
+lentitle = Label(right_frame, "Longueur du mot de passe", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
 lentitle.pack()
 
 val = IntVar()
