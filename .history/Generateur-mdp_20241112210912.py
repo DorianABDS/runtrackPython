@@ -18,6 +18,43 @@ frame = Frame(window, bg='#2D2D2D')
 #ajouter la frame
 frame.pack(expand=YES)
 
+customtkinter.set_appearance_mode("dark")  # Modes: system (default), light, dark
+customtkinter.set_default_color_theme("dark-blue")  # Themes: blue (default), dark-blue, green
+
+#root = Tk()
+window = customtkinter.CTk()
+
+mode = "dark"
+
+def change_colors(choice):
+	customtkinter.set_default_color_theme(choice)
+
+def change():
+	global mode
+	if mode == "dark":
+		customtkinter.set_appearance_mode("light")
+		mode = "light"
+		# Clear text box
+		my_text.delete(0.0, END)
+		my_text.insert(END, "This is Light Mode...")
+	else:
+		customtkinter.set_appearance_mode("dark")
+		mode = "dark"
+		# Clear text box
+		my_text.delete(0.0, END)
+		my_text.insert(END, "This is Dark Mode...")
+
+
+my_text = customtkinter.CTkTextbox(root, width=600, height=300)
+my_text.pack(pady=20)
+
+my_button = customtkinter.CTkButton(root, text="Change Light/Dark", command=change)
+my_button.pack(pady=20)
+
+colors = ["blue", "dark-blue", "green"]
+my_option = customtkinter.CTkOptionMenu(root, values=colors, command=change_colors)
+my_option.pack(pady=10)
+
 # creation d'image
 width = 300
 height = 300
@@ -64,10 +101,8 @@ passgen_button.pack(pady=10, fill=X)
 password = str(callback)
 
 # Input du mot de passe
-# lsum = Entry(right_frame, text="", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
-# lsum.pack(fill=X)
-lsum = Label(right_frame, text="")
-lsum.pack()
+lsum = Entry(right_frame, text="", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
+lsum.pack(fill=X)
 
 # suggestion de modification du mot de passe
 min_maj = string.ascii_uppercase + string.ascii_lowercase

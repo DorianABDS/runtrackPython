@@ -33,7 +33,7 @@ right_frame = Frame(frame, bg='#2D2D2D')
 title = Label(right_frame, text="Configurer votre mot de passe avant de le générer", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
 title.pack()
 
-def selection():
+def selection(choice.get):
     selection = choice.get()
 
 # créer des checkbox
@@ -64,10 +64,8 @@ passgen_button.pack(pady=10, fill=X)
 password = str(callback)
 
 # Input du mot de passe
-# lsum = Entry(right_frame, text="", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
-# lsum.pack(fill=X)
-lsum = Label(right_frame, text="")
-lsum.pack()
+lsum = Entry(right_frame, text="", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
+lsum.pack(fill=X)
 
 # suggestion de modification du mot de passe
 min_maj = string.ascii_uppercase + string.ascii_lowercase

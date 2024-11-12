@@ -67,7 +67,7 @@ password = str(callback)
 # lsum = Entry(right_frame, text="", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
 # lsum.pack(fill=X)
 lsum = Label(right_frame, text="")
-lsum.pack()
+lsum.pack(side=BOTTOM)
 
 # suggestion de modification du mot de passe
 min_maj = string.ascii_uppercase + string.ascii_lowercase

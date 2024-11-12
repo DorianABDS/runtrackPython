@@ -59,7 +59,7 @@ spinlenght.pack()
 def callback():
     lsum.config(text=passgen())
 
-passgen_button = Button(right_frame, text="Générer un mot de passe", font=("Montserrat, 15"), bg='white', fg="#2D2D2D", command=selection)
+passgen_button = Button(right_frame, text="Générer un mot de passe",textvariable=callback font=("Montserrat, 15"), bg='white', fg="#2D2D2D", command=selection)
 passgen_button.pack(pady=10, fill=X)
 password = str(callback)
 

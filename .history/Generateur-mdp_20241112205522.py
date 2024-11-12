@@ -64,10 +64,8 @@ passgen_button.pack(pady=10, fill=X)
 password = str(callback)
 
 # Input du mot de passe
-# lsum = Entry(right_frame, text="", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
-# lsum.pack(fill=X)
-lsum = Label(right_frame, text="")
-lsum.pack()
+lsum = Entry(right_frame, text="", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
+lsum.pack(fill=X)
 
 # suggestion de modification du mot de passe
 min_maj = string.ascii_uppercase + string.ascii_lowercase
@@ -82,6 +80,7 @@ def passgen():
         return"".join(random.sample(chiffre, val.get()))
     if choice.get() == 3:
         return"".join(random.sample(symbol, val.get()))
+    return selection
 
 # on place la sous boite à droite de la frame principale
 right_frame.grid(row=0, column=1, sticky=W)

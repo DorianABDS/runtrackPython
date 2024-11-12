@@ -66,8 +66,8 @@ password = str(callback)
 # Input du mot de passe
 # lsum = Entry(right_frame, text="", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
 # lsum.pack(fill=X)
-lsum = Label(right_frame, text="")
-lsum.pack()
+lsum = Label(window, text="")
+lsum.pack(side=BOTTOM)
 
 # suggestion de modification du mot de passe
 min_maj = string.ascii_uppercase + string.ascii_lowercase
@@ -77,6 +77,7 @@ Spéciaux = min_maj + chiffre + symbol
 
 def passgen():
     if choice.get() == 1:
+        label = Label(right_frame, text="Longueur du mot de passe")
         return"".join(random.sample(min_maj, val.get()))
     elif choice.get() == 2:
         return"".join(random.sample(chiffre, val.get()))
