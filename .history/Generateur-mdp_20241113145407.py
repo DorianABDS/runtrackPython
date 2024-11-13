@@ -44,32 +44,36 @@ c2 = Radiobutton(right_frame, text="Chiffre", variable=choice, value=2, command=
 c2.pack()
 c3 = Radiobutton(right_frame, text="Spéciaux", variable=choice, value=3, command=selection, font=("Montserrat, 15"), bg='#2D2D2D', fg="green")
 c3.pack()
+labelchoice = Label(right_frame, bg='#2D2D2D')
+labelchoice.pack()
 
 # ajout d'un input variable
 lentitle = Label(right_frame, text="Longueur du mot de passe", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
 lentitle.pack()
 
 val = IntVar()
-spinlenght = Spinbox(right_frame, from_=8, to=15, textvariable=val, width=3)
+spinlenght = Spinbox(right_frame, from_=8, to=15, textvariable=val, width=13)
 spinlenght.pack()
 
 # ajouter un premier boutton
 def callback():
-    lsum.config(text=passgen())
+    sum.config(text=passgen())
 
 passgen_button = Button(right_frame, text="Générer un mot de passe", font=("Montserrat, 15"), bg='white', fg="#2D2D2D", command=selection)
 passgen_button.pack(pady=10, fill=X)
 password = str(callback)
 
 # Input du mot de passe
-lsum = Entry(right_frame, text="")
-lsum.pack()
+# lsum = Entry(right_frame, text="", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
+# lsum.pack(fill=X)
+sum = Label(right_frame, text="")
+sum.pack()
 
 # suggestion de modification du mot de passe
 min_maj = string.ascii_uppercase + string.ascii_lowercase
 chiffre = string.ascii_uppercase + string.ascii_lowercase + string.digits
 symbol = string.punctuation
-spéciaux = min_maj + chiffre + symbol
+Spéciaux = min_maj + chiffre + symbol
 
 def passgen():
     if choice.get() == 1:
@@ -77,7 +81,8 @@ def passgen():
     elif choice.get() == 2:
         return"".join(random.sample(chiffre, val.get()))
     elif choice.get() == 3:
-        return"".join(random.sample(spéciaux, val.get()))
+        return"".join(random.sample(symbol, val.get()))
+    
 
 # on place la sous boite à droite de la frame principale
 right_frame.grid(row=0, column=1, sticky=W)

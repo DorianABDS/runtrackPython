@@ -33,16 +33,13 @@ right_frame = Frame(frame, bg='#2D2D2D')
 title = Label(right_frame, text="Configurer votre mot de passe avant de le générer", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
 title.pack()
 
-def selection():
-    selection = choice.get()
-
 # créer des checkbox
 choice = IntVar()
-c1 = Radiobutton(right_frame, text="Minuscule et Majuscule", variable=choice, value=1, command=selection, font=("Montserrat, 15"), bg='#2D2D2D', fg="green")
+c1 = Radiobutton(right_frame, text="Minuscule et Majuscule", variable=choice, value=1, command=passgen, font=("Montserrat, 15"), bg='#2D2D2D', fg="green")
 c1.pack()
-c2 = Radiobutton(right_frame, text="Chiffre", variable=choice, value=2, command=selection, font=("Montserrat, 15"), bg='#2D2D2D', fg="green")
+c2 = Radiobutton(right_frame, text="Chiffre", variable=choice, value=2, command=passgen, font=("Montserrat, 15"), bg='#2D2D2D', fg="green")
 c2.pack()
-c3 = Radiobutton(right_frame, text="Spéciaux", variable=choice, value=3, command=selection, font=("Montserrat, 15"), bg='#2D2D2D', fg="green")
+c3 = Radiobutton(right_frame, text="Spéciaux", variable=choice, value=3, command=passgen, font=("Montserrat, 15"), bg='#2D2D2D', fg="green")
 c3.pack()
 
 # ajout d'un input variable
@@ -62,14 +59,16 @@ passgen_button.pack(pady=10, fill=X)
 password = str(callback)
 
 # Input du mot de passe
-lsum = Entry(right_frame, text="")
+# lsum = Entry(right_frame, text="", font=("Montserrat, 15"), bg='#2D2D2D', fg="white")
+# lsum.pack(fill=X)
+lsum = Label(right_frame, text="")
 lsum.pack()
 
 # suggestion de modification du mot de passe
 min_maj = string.ascii_uppercase + string.ascii_lowercase
 chiffre = string.ascii_uppercase + string.ascii_lowercase + string.digits
 symbol = string.punctuation
-spéciaux = min_maj + chiffre + symbol
+Spéciaux = min_maj + chiffre + symbol
 
 def passgen():
     if choice.get() == 1:
@@ -77,8 +76,8 @@ def passgen():
     elif choice.get() == 2:
         return"".join(random.sample(chiffre, val.get()))
     elif choice.get() == 3:
-        return"".join(random.sample(spéciaux, val.get()))
-
+        return"".join(random.sample(symbol, val.get()))
+    
 # on place la sous boite à droite de la frame principale
 right_frame.grid(row=0, column=1, sticky=W)
 
