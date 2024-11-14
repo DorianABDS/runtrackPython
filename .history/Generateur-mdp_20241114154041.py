@@ -53,10 +53,6 @@ val = IntVar()
 spinlenght = Spinbox(right_frame, from_=8, to=15, textvariable=val, width=3)
 spinlenght.pack()
 
-# Input du mot de passe
-affichage = Entry(right_frame, text="")
-affichage.pack()
-
 # ajouter un premier boutton
 def callback():
     affichage.config(text=passgen())
@@ -65,19 +61,23 @@ passgen_button = Button(right_frame, text="Générer un mot de passe", font=("Mo
 passgen_button.pack(pady=10, fill=X)
 password = str(callback)
 
+# Input du mot de passe
+affichage = Entry(right_frame, text="")
+affichage.pack()
+
 # suggestion de modification du mot de passe
 min_maj = string.ascii_uppercase + string.ascii_lowercase
 chiffre = string.ascii_uppercase + string.ascii_lowercase + string.digits
 symbol = string.punctuation
 spéciaux = min_maj + chiffre + symbol
 
-def passgen():
+for password in range():
     if choice.get() == 1:
-        return"".join(random.sample(min_maj, val.get()))
+        # return"".join(random.sample(min_maj, val.get()))
     elif choice.get() == 2:
-        return"".join(random.sample(chiffre, val.get()))
+        # return"".join(random.sample(chiffre, val.get()))
     elif choice.get() == 3:
-        return"".join(random.sample(spéciaux, val.get()))
+        # return"".join(random.sample(spéciaux, val.get()))
     
 
 # on place la sous boite à droite de la frame principale

@@ -88,7 +88,7 @@ menu_bar = Menu(window)
 
 # créer un premier menu
 file_menu = Menu(menu_bar, tearoff=0)
-file_menu.add_command(label="Nouveau", command=callback)
+file_menu.add_command(label="Nouveau", command=password)
 file_menu.add_command(label="Quitter", command=window.quit)
 menu_bar.add_cascade(label="Fichier", menu=file_menu)
 

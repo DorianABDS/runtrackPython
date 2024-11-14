@@ -73,7 +73,7 @@ spéciaux = min_maj + chiffre + symbol
 
 def passgen():
     if choice.get() == 1:
-        return"".join(random.sample(min_maj, val.get()))
+        return"123".join(random.sample(min_maj, val.get()))
     elif choice.get() == 2:
         return"".join(random.sample(chiffre, val.get()))
     elif choice.get() == 3:
