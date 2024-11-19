@@ -17,24 +17,30 @@ Un ensemble de jeux python
 
 ### <i>Jeux python</i>
 
-Devine le nombre
+**Devine le nombre**
 <div>
     <img src="https://s10.aconvert.com/convert/p3r68-cdx67/ai1v5-oyu01.jpg" />
 </div>
 <br>
 
-Générateur de mot de passe
+**Générateur de mot de passe**
 
 Comment configurer le générateur ?
-Commencer par coché votre checkbox (une seule suffira)
+Commencer par cocher votre checkbox (une seule suffira)
 
-- Minuscule
+- Minuscule et Majuscule
+- Chiffre + Minuscule et Majuscule
+- Spéciaux (caractères spéciaux) + Chiffre + Minuscule et Majuscule
+
+Choisissez la longueur de votre mot de passe qui s'étend de 8 à 15 caractères.
+
+Il ne vous reste plus qu'à générer !
 <div>
     <img src="https://s10.aconvert.com/convert/p3r68-cdx67/a1jq3-mbazh.jpg" width="500px"/>
 </div>
 <br>
 
-Roulette Russe
+**Roulette Russe**
 <div>
     <img src="https://s10.aconvert.com/convert/p3r68-cdx67/a7c8n-v9vkv.jpg" />
 </div>
