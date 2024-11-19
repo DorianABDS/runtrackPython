@@ -25,7 +25,7 @@ Devine le nombre
 
 Générateur de mot de passe
 <div>
-    <img src="https://s10.aconvert.com/convert/p3r68-cdx67/a1jq3-mbazh.jpg" />
+    <img src="https://s10.aconvert.com/convert/p3r68-cdx67/a1jq3-mbazh.jpg" width="400px"/>
 </div>
 <br>
 
