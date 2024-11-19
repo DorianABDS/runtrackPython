@@ -9,6 +9,10 @@
   - [📜 Informations générales](#-informations-générales)
     - [Ensemble du projet](#Ensemble-du-projet)
     - [Jeux python](#Jeux-python)
+      - [Devine le nombre](#Devine-le-nombre)
+      - [Générateur de mot de passe](#Générateur-de-mot-de-passe)
+      - [Roulette Russe](#Roulette-Russe)
+    
 
 ## 📜 Informations générales
 
