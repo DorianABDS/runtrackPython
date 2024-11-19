@@ -24,6 +24,11 @@ Devine le nombre
 <br>
 
 Générateur de mot de passe
+
+Comment configurer le générateur ?
+Commencer par coché votre checkbox (une seule suffira)
+
+- Minuscule
 <div>
     <img src="https://s10.aconvert.com/convert/p3r68-cdx67/a1jq3-mbazh.jpg" width="500px"/>
 </div>
