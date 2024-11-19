@@ -28,7 +28,7 @@ Un ensemble de jeux python
 </div>
 <br>
 
-<i>Générateur de mot de passe</i>
+### <i>Générateur de mot de passe</i>
 
 Comment configurer le générateur ?
 Commencer par cocher votre checkbox (une seule suffira)
@@ -45,7 +45,7 @@ Il ne vous reste plus qu'à générer !
 </div>
 <br>
 
-<i>Roulette Russe</i>
+### <i>Roulette Russe</i>
 <div>
     <img src="https://s10.aconvert.com/convert/p3r68-cdx67/a7c8n-v9vkv.jpg" />
 </div>
