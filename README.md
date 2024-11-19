@@ -18,18 +18,18 @@ Un ensemble de jeux python
 ### <i>Jeux python</i>
 
 Devine le nombre
-<div align="center">
+<div>
     <img src="https://s10.aconvert.com/convert/p3r68-cdx67/ai1v5-oyu01.jpg" />
 </div>
 <br>
 
 Générateur de mot de passe
-<div align="center">
+<div>
     <img src="https://s10.aconvert.com/convert/p3r68-cdx67/a1jq3-mbazh.jpg" />
 </div>
 <br>
 
 Roulette Russe
-<div align="center">
+<div>
     <img src="https://s10.aconvert.com/convert/p3r68-cdx67/a7c8n-v9vkv.jpg" />
 </div>
