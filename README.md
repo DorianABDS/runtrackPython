@@ -1,6 +1,7 @@
-# <center>Jeux python</center>
+<div align="center">
+<h1>Jeux python</h1>
+</div>
 
-<br>
 <div align="center">
     <img src="https://s11.aconvert.com/convert/p3r68-cdx67/wgdvg-75bv0.jpg" />
 </div>
