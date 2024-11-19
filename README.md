@@ -9,10 +9,10 @@
 ## Table des matières
   - [📜 Informations générales](#-informations-générales)
     - [Ensemble du projet](#Ensemble-du-projet)
-    - [Mes jeux](#Mes-jeux)
-      - [Devine le nombre](#Devine-le-nombre)
-      - [Générateur de mot de passe](#Générateur-de-mot-de-passe)
-      - [Roulette Russe](#Roulette-Russe)
+  - [🎮 Mes jeux](#Mes-jeux)
+    - [Devine le nombre](#Devine-le-nombre)
+    - [Générateur de mot de passe](#Générateur-de-mot-de-passe)
+    - [Roulette Russe](#Roulette-Russe)
     
 
 ## 📜 Informations générales
@@ -20,7 +20,7 @@
 ### <i>Ensemble du projet</i>
 Un ensemble de jeux python
 
-### <i>Mes jeux</i>
+## 🎮 Mes jeux
 
 <ins>**Devine le nombre**
 <div>
