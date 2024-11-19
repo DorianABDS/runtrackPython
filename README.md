@@ -17,13 +17,13 @@ Un ensemble de jeux python
 
 ### <i>Jeux python</i>
 
-**Devine le nombre**
+<ins>**Devine le nombre**
 <div>
     <img src="https://s10.aconvert.com/convert/p3r68-cdx67/ai1v5-oyu01.jpg" />
 </div>
 <br>
 
-**Générateur de mot de passe**
+<ins>**Générateur de mot de passe**
 
 Comment configurer le générateur ?
 Commencer par cocher votre checkbox (une seule suffira)
@@ -40,7 +40,7 @@ Il ne vous reste plus qu'à générer !
 </div>
 <br>
 
-**Roulette Russe**
+<ins>**Roulette Russe**
 <div>
     <img src="https://s10.aconvert.com/convert/p3r68-cdx67/a7c8n-v9vkv.jpg" />
 </div>
