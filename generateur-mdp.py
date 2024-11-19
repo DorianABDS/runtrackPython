@@ -1,6 +1,5 @@
 import random, string
 from tkinter import *
-import customtkinter
 
 # créer une première fenêtre
 window = Tk()
