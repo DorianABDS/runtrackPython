@@ -13,11 +13,11 @@ for i in range (21):
     carre = i ** 2
     print(f"Le carre de, {i} et {carre}")
 
-job 4
+# job 4
 for i in range(11):
     print("1 x", i, "=", 1*i)
 
-job 5
+# job 5
 for N in range(1,13):
     print(N)
 
@@ -26,7 +26,7 @@ while nombre != 13:
     print(nombre)
     nombre = nombre + 1
 
-job 6
+# job 6
 i = 7
 while i:
     print("1 x", i, "=", 1*i)
