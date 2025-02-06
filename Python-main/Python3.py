@@ -1,14 +1,14 @@
-# # job 1
-# valeur1 = 1
-# valeur2 = 2
-# while valeur1 != valeur2:
-#     input(str("Choissisez une valeur : "))
-#     if valeur1 <= valeur2:
-#         print("les deux valeurs ne sont pas égale")
-#         break
-#     elif valeur1 == valeur2:
-#         valeur1 + 1
-#         print(valeur1, "est égal à ", valeur2)
+# job 1
+valeur1 = 1
+valeur2 = 2
+while valeur1 != valeur2:
+    input(str("Choissisez une valeur : "))
+    if valeur1 <= valeur2:
+        print("les deux valeurs ne sont pas égale")
+        break
+    elif valeur1 == valeur2:
+        valeur1 + 1
+        print(valeur1, "est égal à ", valeur2)
 
 # job 5
 def est_premier(n):
