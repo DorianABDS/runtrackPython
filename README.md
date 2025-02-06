@@ -7,12 +7,13 @@
 </div>
 
 ## Table des matières
-  - [📜 Informations générales](#-informations-générales)
-    - [Ensemble du projet](#Ensemble-du-projet)
-  - [🎮 Mes jeux](#Mes-jeux)
-    - [Devine le nombre](#Devine-le-nombre)
-    - [Générateur de mot de passe](#Générateur-de-mot-de-passe)
-    - [Roulette Russe](#Roulette-Russe)
+- [Table des matières](#table-des-matières)
+- [📜 Informations générales](#-informations-générales)
+  - [Ensemble du projet](#ensemble-du-projet)
+- [🎮 Mes jeux](#-mes-jeux)
+  - [Devine le nombre](#devine-le-nombre)
+  - [Générateur de mot de passe](#générateur-de-mot-de-passe)
+  - [Roulette Russe](#roulette-russe)
     
 
 ## 📜 Informations générales
@@ -23,9 +24,8 @@ Un ensemble de jeux python
 ## 🎮 Mes jeux
 
 ### <i>Devine le nombre</i>
-<div>
-    <img src="https://s10.aconvert.com/convert/p3r68-cdx67/ai1v5-oyu01.jpg" />
-</div>
+
+Le juste prix, le gagnant gagne un croc-scooby ! Tu devras choisir un nombre entre 1 et 100 avec 5 essaient maximum, autrement, tu perdras.
 <br>
 
 ### <i>Générateur de mot de passe</i>
@@ -40,12 +40,8 @@ Commencer par cocher votre checkbox (une seule suffira)
 Choisissez la longueur de votre mot de passe qui s'étend de 8 à 15 caractères.
 
 Il ne vous reste plus qu'à générer !
-<div>
-    <img src="https://s10.aconvert.com/convert/p3r68-cdx67/a1jq3-mbazh.jpg" width="500px"/>
-</div>
 <br>
 
 ### <i>Roulette Russe</i>
-<div>
-    <img src="https://s10.aconvert.com/convert/p3r68-cdx67/a7c8n-v9vkv.jpg" />
-</div>
+
+Tirer une balle aléatoirement et si vous n'avez pas de chance, la seule balle du revolver vous atteindras ! BAAAM, le revolver rugira
